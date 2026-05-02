@@ -38,7 +38,7 @@ if menu == "Home":
 
     st.markdown("## Descripción del Proyecto")
     st.write("""
-    Esta aplicación interactiva ha sido desarrollada como parte del proyecto final del Módulo 1 del curso de Python.
+    Esta aplicación interactiva ha sido desarrollada como parte del trabajo práctico del Módulo 1 del curso de Python.
     Integra los conceptos fundamentales aprendidos, incluyendo:
     - Variables  
     - Estructuras de datos  
