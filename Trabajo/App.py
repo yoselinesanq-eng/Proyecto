@@ -247,7 +247,7 @@ elif menu == "Ejercicio 3":
 
         return {
             "imc": round(imc, 2),
-            "clasificación": clasificacion
+            "clasificacion": clasificacion
         }
 
     # ---------------------------------------------------------
@@ -285,14 +285,14 @@ elif menu == "Ejercicio 3":
                 st.success("Función ejecutada correctamente.")
                 st.write("### Resultado:")
                 st.write(f"**IMC:** {resultado['imc']}")
-                st.write(f"**Clasificación:** {resultado['clasificacion']}")
+                st.write(f"**Clasificacion:** {resultado['clasificacion']}")
 
                 # Guardar en histórico
                 st.session_state.historial_imc.append({
                     "peso": peso,
                     "altura": altura,
                     "imc": resultado["imc"],
-                    "clasificación": resultado["clasificacion"]
+                    "clasificacion": resultado["clasificacion"]
                 })
 
         except Exception as e:
@@ -371,7 +371,7 @@ elif menu == "Ejercicio 4":
                 "peso_kg": self.peso_kg,
                 "altura_m": self.altura_m,
                 "imc": round(self.calcular_imc(), 2),
-                "clasificación_imc": self.clasificacion_imc(),
+                "clasificacion_imc": self.clasificacion_imc(),
                 "superficie_corporal_m2": round(self.calcular_superficie_corporal(), 3)
             }
 
