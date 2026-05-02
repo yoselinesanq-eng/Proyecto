@@ -247,7 +247,7 @@ elif menu == "Ejercicio 3":
 
         return {
             "imc": round(imc, 2),
-            "clasificacion": clasificacion
+            "clasificación": clasificacion
         }
 
     # ---------------------------------------------------------
@@ -292,7 +292,7 @@ elif menu == "Ejercicio 3":
                     "peso": peso,
                     "altura": altura,
                     "imc": resultado["imc"],
-                    "clasificacion": resultado["clasificacion"]
+                    "clasificación": resultado["clasificacion"]
                 })
 
         except Exception as e:
@@ -371,7 +371,7 @@ elif menu == "Ejercicio 4":
                 "peso_kg": self.peso_kg,
                 "altura_m": self.altura_m,
                 "imc": round(self.calcular_imc(), 2),
-                "clasificacion_imc": self.clasificacion_imc(),
+                "clasificación_imc": self.clasificacion_imc(),
                 "superficie_corporal_m2": round(self.calcular_superficie_corporal(), 3)
             }
 
