@@ -27,7 +27,7 @@ if menu == "Home":
 
     # Logo o imagen representativa
     st.image(
-        "C:\\Users\\Yoseline\\Downloads\\Trabajo\\Logo.png",
+        "https://github.com/yoselinesanq-eng/Proyecto/commit/a2d1fd14d8b3ee0b62ae29c6dd6ae7183c0c2091#diff-3fbfa2fe705ac3594510256e42110aca0e74668d61c65dd703eb6d0b8953e0e2",
         width=250
     )
 
