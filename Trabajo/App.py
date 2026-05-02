@@ -32,7 +32,7 @@ if menu == "Home":
     )
 
     st.markdown("## Estudiante")
-    st.write("**Nombre completo:** Yoal")
+    st.write("**Nombre completo:** Yoseline Carolina Sanchez Quino")
     st.write("**Módulo:** Fundamentos de Programación en Python – Módulo 1")
     st.write("**Año:** 2026")
 
