@@ -56,8 +56,7 @@ if menu == "Home":
     - **Programación orientada a objetos**
     """)
 
-    st.success("Bienvenido a la aplicación. 
-    Usa el menú lateral para navegar por los ejercicios.")
+    st.success("Bienvenido a la aplicación. Usa el menú lateral para navegar por los ejercicios.")
 elif menu == "Ejercicio 1":
     st.title("Ejercicio 1 – Flujo de Caja con Listas")
     st.markdown("""
