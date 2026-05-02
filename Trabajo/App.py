@@ -31,12 +31,12 @@ if menu == "Home":
         width=250
     )
 
-    st.markdown("## Estudiante")
+    # st.markdown("## Estudiante")
     st.write("**Nombre completo:** Yoseline Carolina Sanchez Quino")
     st.write("**Módulo:** Fundamentos de Programación en Python – Módulo 1")
     st.write("**Año:** 2026")
 
-    st.markdown("##Descripción del Proyecto")
+    st.markdown("## Descripción del Proyecto")
     st.write("""
     Esta aplicación interactiva ha sido desarrollada como parte del proyecto final del Módulo 1 del curso de Python.
     Integra los conceptos fundamentales aprendidos, incluyendo:
@@ -52,8 +52,8 @@ if menu == "Home":
     st.write("""
     - **Python 3**
     - **Streamlit**
-    - Programación funcional
-    - Programación orientada a objetos
+    - **Programación funcional**
+    - **Programación orientada a objetos**
     """)
 
     st.success("Bienvenido a la aplicación. Usa el menú lateral para navegar por los ejercicios.")
